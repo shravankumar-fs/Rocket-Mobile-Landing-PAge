@@ -375,6 +375,7 @@ button:active::after {
 @media only screen and (max-width: 500px) {
   ::selection {
     text-decoration: none;
+    user-select: none;
   }
 
   body {
